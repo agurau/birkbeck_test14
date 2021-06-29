@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400&display=swap");
+
+/*General CSS*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --blue: rgb(95, 158, 160);
+  --white: #fff;
+}
+
+/*Remove bullet point*/
+ul {
+  list-style-type: none;
+}
+
+/*All links*/
+a {
+  text-decoration: none;
+  color: rgb(73, 68, 68);
+}
+
+/*-------------------NAV BAR------------------*/
+
+.nav {
+  background-color: var(--white);
+  padding: 0 2rem;
+  height: 0rem;
+  min-height: 14vh;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+/*Delicioso logo*/
+.nav .nav-logo a {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+  display: block;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  color: var(--blue);
+}
+
+.nav .nav-menu {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav .nav-items {
+  display: flex;
+  margin: 0;
+}
+
+/* Home - Menu -Order - Contact us */
+.nav .nav-items a {
+  padding: 1.6rem 1rem;
+  font-size: 1.2rem;
+  position: relative;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.nav .nav-items a:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.nav .current {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+/*---------x----------NAV BAR---------x---------*/
