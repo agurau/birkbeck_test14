@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="order.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@100;300;400;500;600;700;800;900&display=swap"
@@ -19,7 +20,7 @@
       src="https://kit.fontawesome.com/d751b97a06.js"
       crossorigin="anonymous"
     ></script>
-    <title>Contact Delicioso Team</title>
+    <title>Your Delicioso Cart</title>
   </head>
   <body>
     <!---------------------- NAV BAR ----------------------->
@@ -43,14 +44,14 @@
               >
             </li>
             <li>
-              <a href="/C:/Users/Andrea/projects/birkbeck_test14/order.html"
+              <a
+                class="current"
+                href="/C:/Users/Andrea/projects/birkbeck_test14/order.html"
                 >Order</a
               >
             </li>
             <li>
-              <a
-                class="current"
-                href="/C:/Users/Andrea/projects/birkbeck_test14/contact.html"
+              <a href="/C:/Users/Andrea/projects/birkbeck_test14/contact.html"
                 >Contact</a
               >
             </li>
@@ -59,6 +60,30 @@
       </div>
     </nav>
     <!-----------x----------- NAV BAR -----------x------------>
+
+    <!---------------------- MAIN SECTION ----------------------->
+
+    <!-- <a href="#">Cart</a>
+
+    <h3>Shop</h3>
+    <div id="items"></div> -->
+
+    <header>
+      <div class="shopping">
+        <nav>
+          <ul>
+            <li class="cart">
+              <a href="cart.html">
+                <ion-icon name="basket"></ion-icon>Cart <span>0</span>
+              </a>
+            </li>
+          </ul>
+          <h3>Shop</h3>
+        </nav>
+      </div>
+    </header>
+
+    <!-----------x----------- MAIN SECTION ------------x----------->
 
     <!---------------------- FOOTER ----------------------->
 
@@ -156,5 +181,14 @@
     </footer>
 
     <!-----------x---------- FOOTER ------------x--------->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
   </body>
 </html>

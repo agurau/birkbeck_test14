@@ -1,0 +1,57 @@
+:root {
+  --blue: rgb(95, 158, 160);
+  --white: #fff;
+  --grey: rgb(27, 25, 25);
+}
+
+/*----------------- MAIN SECTION ---------------- */
+
+main .site-title {
+  background-image: url(./images/home-background-reduced.jpg);
+  background-size: cover;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+}
+
+main .site-title .site-background {
+  padding-top: 8rem;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--grey);
+  opacity: 0.8;
+}
+
+main .site-title .site-background h3 {
+  font-size: 15px;
+  font-family: "Viaoda Libre", cursive;
+  color: var(--blue);
+  padding: 0.8rem;
+}
+
+main .site-title .site-background h1 {
+  font-size: 50px;
+  font-family: "Viaoda Libre", cursive;
+  padding-bottom: 0.3rem;
+}
+
+main .site-title .btn {
+  border: none;
+  border-radius: 2rem;
+  border: 2px solid var(--white);
+  margin-top: 20px;
+  padding: 0.2rem 0.8rem;
+  font-size: 0.8rem;
+  font-family: "Viaoda Libre", cursive;
+  color: var(--white);
+  background-color: rgb(26, 77, 77);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+main .site-title .btn:hover {
+  border: 2px solid rgb(26, 77, 77);
+  background-color: var(--white);
+  color: rgb(26, 77, 77);
+  text-transform: uppercase;
+}

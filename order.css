@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+/* #items {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Saira Condensed", sans-serif;
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.product {
+  box-shadow: 0px 1px 1px 0px var(--blue);
+  margin: 2rem 3rem;
+  padding: 0.3em;
+  text-align: center;
+}
+
+.product img {
+  height: 18em;
+  width: 100%;
+}
+
+.name {
+  background-color: var(--blue);
+  color: var(--white);
+  text-transform: capitalize;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 1.2rem;
+}
+
+.price {
+  color: rgb(26, 77, 77);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Saira Condensed", sans-serif;
+  margin-top: 10px;
+}
+
+.add {
+  border: none;
+  border-radius: 2rem;
+  border: 2px solid var(--white);
+  margin-top: 10px;
+  padding: 0.2rem 0.8rem;
+  font-size: 0.8rem;
+  font-family: "Viaoda Libre", cursive;
+  color: var(--white);
+  background-color: rgb(26, 77, 77);
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.add:hover {
+  border: 2px solid rgb(26, 77, 77);
+  background-color: var(--white);
+  color: rgb(26, 77, 77);
+  text-transform: uppercase;
+} */
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Saira Condensed", sans-serif;
+  background-color: var(--blue);
+  color: var(--white);
+  height: 3rem;
+}
+
+.cart {
+  text-align: right;
+}
+
+.cart ion-icon {
+  vertical-align: middle;
+  font-size: 1rem;
+  padding-right: 5px;
+}
+
+.cart a {
+  background-color: rgb(26, 77, 77);
+  color: var(--white);
+  padding: 2px 5px 2px 3px;
+  margin: 10px 0px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: none;
+}
+
+.image {
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.add-cart {
+  position: absolute;
+  width: 100%;
+  background-color: var(--blue);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+  color: var(--white);
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.image:hover .cart1,
+.image:hover .cart2,
+.image:hover .cart3,
+.image:hover .cart4,
+.image:hover .cart5,
+.image:hover .cart6,
+.image:hover .cart7,
+.image:hover .cart8,
+.image:hover .cart9 {
+  bottom: 50px;
+  opacity: 0.9;
+  padding: 7px;
+  text-decoration: none;
+}
+
+h4 {
+  text-transform: capitalize;
+  font-family: "Saira Condensed", sans-serif;
+  text-align: center;
+}
+
+h5 {
+  font-family: "Saira Condensed", sans-serif;
+  text-align: center;
+}

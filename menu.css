@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Saira Condensed", sans-serif;
+  background-color: var(--blue);
+  color: var(--white);
+}
