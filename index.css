@@ -9,9 +9,10 @@
 main .site-title {
   background-image: url(./images/home-background-reduced.jpg);
   background-size: cover;
-  height: 520px;
+  height: 620px;
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 main .site-title .site-background {
@@ -55,3 +56,7 @@ main .site-title .btn:hover {
   color: rgb(26, 77, 77);
   text-transform: uppercase;
 }
+
+/* .add-favourites ion-icon {
+  vertical-align: middle;
+} */

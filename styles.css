@@ -160,6 +160,20 @@ a {
   color: var(--grey);
 }
 
+input {
+  width: 260px;
+}
+
+/* .footer-area
+  .container
+  .footer
+  .single-footer
+  #newsletter
+  #top-subscribe-form
+  .input-boxes {
+  flex-direction: column;
+} */
+
 .footer-area
   .container
   .footer

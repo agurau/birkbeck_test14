@@ -18,8 +18,8 @@ h3 {
 }
 
 .wrapper {
-  width: 1200px;
-  margin: 20px 50px auto auto;
+  width: auto;
+  margin: 20px;
   font-family: "Saira Condensed", sans-serif;
 }
 
@@ -57,16 +57,20 @@ h3 {
   transform: translateX(-50%);
 }
 
+.title .bottom-title {
+  margin-right: 40px;
+}
+
 .menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .single-menu {
   flex-basis: 580px;
   margin-bottom: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
   border-bottom: 1px solid #ddd;
 }
 
@@ -121,8 +125,8 @@ h3 {
 .add-favourites {
   border: none;
   border-radius: 2rem;
-  /* border: 2px solid var(--white); */
-  /* margin-top: 20px; */
+  border: 2px solid var(--white);
+  margin-top: 20px;
   padding: 0.2rem 0.8rem;
   font-size: 0.8rem;
   font-family: "Viaoda Libre", cursive;
