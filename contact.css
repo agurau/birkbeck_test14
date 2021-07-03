@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Contact Page*/
+
+.wrapper {
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.contact-form {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 5px;
+  background-color: var(--blue);
+  display: flex;
+}
+
+.input-fields {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+.input-fields,
+.msg {
+  width: 48%;
+}
+
+/* .input-fields .input {
+  color: var(--white);
+} */
+
+.input-fields .input,
+.msg textarea {
+  margin: 10px 0;
+  background: transparent;
+  border: 0;
+  border-bottom: 2px solid var(--white);
+  padding: 5%;
+  color: var(--white);
+  width: 90%;
+}
+
+.msg textarea {
+  height: 205px;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.btn {
+  border: none;
+  border-radius: 2rem;
+  border: 2px solid var(--white);
+  margin-top: 20px;
+  padding: 0.2rem 0.8rem;
+  font-size: 0.8rem;
+  font-family: "Viaoda Libre", cursive;
+  color: var(--white);
+  background-color: var(--darkblue);
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn:hover {
+  border: 2px solid var(--darkblue);
+  background-color: var(--white);
+  color: var(--darkblue);
+  text-transform: uppercase;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--white);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--white);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--white);
+}
+
+@media screen and (max-width: 600px) {
+  .contact-form {
+    flex-direction: column;
+    width: 250px;
+  }
+  .msg textarea {
+    height: 70px;
+  }
+
+  .input-fields,
+  .msg {
+    width: 100%;
+  }
+}

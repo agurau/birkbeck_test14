@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* #items {
+#items {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -45,7 +45,7 @@ h3 {
   margin-top: 10px;
 }
 
-.add {
+/* .add {
   border: none;
   border-radius: 2rem;
   border: 2px solid var(--white);
@@ -75,26 +75,26 @@ h3 {
   height: 3rem;
 }
 
-.cart {
-  text-align: right;
+.cart-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .cart ion-icon {
   vertical-align: middle;
-  font-size: 1rem;
-  padding-right: 5px;
 }
 
-.cart a {
+.cart {
   background-color: rgb(26, 77, 77);
   color: var(--white);
   padding: 2px 5px 2px 3px;
-  margin: 10px 0px;
+  /* margin: 10px 0px; */
   font-size: 1rem;
   cursor: pointer;
+  font-family: "Saira Condensed", sans-serif;
 }
 
-.container {
+/* .container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -134,7 +134,7 @@ h3 {
   opacity: 0.9;
   padding: 7px;
   text-decoration: none;
-}
+} */
 
 h4 {
   text-transform: capitalize;
