@@ -30,15 +30,15 @@ a {
 .nav {
   background-color: var(--white);
   padding: 0 2rem;
-  height: 0rem;
-  min-height: 14vh;
+  height: 0px;
+  min-height: 4.5rem;
   overflow: hidden;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 /*Delicioso logo*/
 .nav .nav-logo a {
-  font-size: 2.5rem;
+  font-size: 3rem;
   padding: 1rem 0;
   display: block;
   font-family: "Big Shoulders Stencil Display", cursive;
@@ -76,9 +76,70 @@ a {
   color: var(--white);
 }
 
+/* Media Queries NAV BAR */
+
+/* Medium Screens */
+
+@media screen and (max-width: 630px) {
+  .nav {
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+  .nav .nav-logo a {
+    font-size: 2.5rem;
+  }
+  .nav .nav-items a {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .nav {
+    padding-left: 2rem;
+  }
+  .nav .nav-logo a {
+    font-size: 2.2rem;
+  }
+  .nav .nav-items a {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small Screens */
+
+@media screen and (max-width: 410px) {
+  .nav {
+    padding-left: 1rem;
+    padding-right: 0;
+    min-height: 3rem;
+    margin-bottom: 0.3rem;
+  }
+  .nav .nav-logo a {
+    font-size: 1.8rem;
+  }
+  .nav .nav-items a {
+    font-size: 0.7rem;
+  }
+}
+
+/* Big Screens */
+@media screen and (min-width: 1200px) {
+  .nav {
+    min-height: 6rem;
+    margin-bottom: 1rem;
+  }
+  .nav .nav-logo a {
+    font-size: 3.8rem;
+  }
+  .nav .nav-items a {
+    font-size: 1.5rem;
+  }
+}
+
 /*---------x----------NAV BAR---------x---------*/
 
 /*--------------------- FOOTER --------------------- */
+
 .footer-area {
   margin-top: 100px;
   padding: 100px 0;
@@ -86,7 +147,7 @@ a {
 }
 
 .footer-area .container {
-  width: 1200px;
+  width: fit-content;
   margin: 0 auto;
 }
 
@@ -106,8 +167,16 @@ a {
   margin-right: 50px;
 }
 
+.footer-area .container .footer .single-footer:nth-child(2) {
+  width: 280px;
+}
+
 .footer-area .container .footer .single-footer:nth-child(3) {
-  width: 300px;
+  width: 280px;
+}
+
+.footer-area .container .footer .single-footer:nth-child(4) {
+  width: 280px;
 }
 
 /*About us-Quick links-Contact us-Subscribe to the newsletter*/
@@ -133,7 +202,7 @@ a {
 }
 
 .footer-area .container .footer .single-footer ul li a {
-  color: rgb(26, 77, 77);
+  color: var(--darkblue);
   font-weight: bold;
   /* text-decoration: rgb(95, 158, 160); */
 }
@@ -149,6 +218,7 @@ a {
 }
 
 .footer-area .container .footer .copy p {
+  font-size: 1rem;
   text-transform: capitalize;
   margin-top: 50px;
   font-family: "Saira Condensed", sans-serif;
@@ -189,7 +259,7 @@ input {
   font-size: 0.8rem;
   font-family: "Viaoda Libre", cursive;
   color: var(--white);
-  background-color: rgb(26, 77, 77);
+  background-color: var(--darkblue);
   cursor: pointer;
   text-transform: uppercase;
 }
@@ -201,10 +271,215 @@ input {
   #newsletter
   #top-subscribe-form
   .btn:hover {
-  border: 2px solid rgb(26, 77, 77);
+  border: 2px solid var(--darkblue);
   background-color: var(--white);
-  color: rgb(26, 77, 77);
+  color: var(--darkblue);
   text-transform: uppercase;
+}
+
+#scrollToTopBtn {
+  background-color: var(--darkblue);
+  border: 2px solid var(--white);
+  /* border-radius: 50%; */
+  color: var(--white);
+  cursor: pointer;
+  font-size: 2rem;
+  line-height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 0.6;
+}
+
+/* Media Queries NAV BAR */
+
+/* Small Screens */
+
+@media screen and (max-width: 590px) {
+  .footer-area {
+    margin-top: 0;
+    padding: 30px;
+  }
+  .footer-area .container .footer .single-footer h2 {
+    font-size: 1.3rem;
+  }
+  .footer-area .container .footer .single-footer p {
+    font-size: 1rem;
+  }
+  .footer-area .container .footer .single-footer:first-child {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .footer-area .container .footer .single-footer ul li a {
+    font-size: 1.1rem;
+  }
+  .footer-area .container .footer .single-footer:nth-child(3) {
+    margin-bottom: 30px;
+    width: 260px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(4) {
+    margin-bottom: 30px;
+  }
+
+  .footer-area
+    .container
+    .footer
+    .single-footer
+    #newsletter
+    #top-subscribe-form
+    .btn {
+    font-size: 0.7rem;
+  }
+  .footer-area .container .footer .copy p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .footer-area {
+    margin-top: 0;
+    padding: 30px;
+  }
+  .footer-area .container .footer .single-footer h2 {
+    font-size: 1.3rem;
+  }
+  .footer-area .container .footer .single-footer p {
+    font-size: 1rem;
+  }
+  .footer-area .container .footer .single-footer:first-child {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .footer-area .container .footer .single-footer ul li a {
+    font-size: 1.1rem;
+  }
+  .footer-area .container .footer .single-footer:nth-child(3) {
+    margin-bottom: 30px;
+    width: 260px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(4) {
+    margin-bottom: 30px;
+  }
+
+  .footer-area
+    .container
+    .footer
+    .single-footer
+    #newsletter
+    #top-subscribe-form
+    .btn {
+    font-size: 0.7rem;
+  }
+  .footer-area .container .footer .copy p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .footer-area {
+    margin-top: 0;
+    padding: 20px;
+  }
+  .footer-area .container .footer .single-footer h2 {
+    font-size: 1rem;
+  }
+  .footer-area .container .footer .single-footer p {
+    font-size: 0.8rem;
+  }
+  .footer-area .container .footer .single-footer:first-child {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(2) {
+    margin-bottom: 20px;
+  }
+  .footer-area .container .footer .single-footer ul li a {
+    font-size: 0.9rem;
+  }
+  .footer-area .container .footer .single-footer:nth-child(3) {
+    margin-bottom: 20px;
+    width: 260px;
+  }
+  .footer-area
+    .container
+    .footer
+    .single-footer
+    #newsletter
+    #top-subscribe-form
+    .btn {
+    font-size: 0.5rem;
+  }
+  .footer-area .container .footer .copy p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 815px) and (max-width: 1200px) {
+  .footer-area .container .footer .single-footer:first-child {
+    width: fit-content;
+  }
+  .footer-area .container .footer .single-footer:nth-child(2) {
+    width: 140px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(3) {
+    width: 140px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(3) {
+    width: 140px;
+  }
+}
+
+@media screen and (min-width: 710px) and (max-width: 814px) {
+  .footer-area {
+    margin-top: 0;
+    padding: 30px;
+  }
+  .footer-area .container .footer {
+    justify-content: space-between;
+  }
+  .footer-area .container .footer .single-footer h2 {
+    font-size: 1.3rem;
+  }
+  .footer-area .container .footer .single-footer p {
+    font-size: 1rem;
+  }
+  .footer-area .container .footer .single-footer:first-child {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(2) {
+    margin-bottom: 30px;
+  }
+  .footer-area .container .footer .single-footer ul li a {
+    font-size: 1.1rem;
+  }
+  .footer-area .container .footer .single-footer:nth-child(3) {
+    margin-bottom: 30px;
+    width: 350px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(4) {
+    margin-bottom: 30px;
+  }
+
+  .footer-area
+    .container
+    .footer
+    .single-footer
+    #newsletter
+    #top-subscribe-form
+    .btn {
+    font-size: 0.7rem;
+  }
+  .footer-area .container .footer .copy p {
+    font-size: 1rem;
+  }
 }
 
 /*-----------x---------- FOOTER -----------x---------- */

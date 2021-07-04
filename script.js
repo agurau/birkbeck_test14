@@ -48,3 +48,17 @@ subscribeNewsletter.addEventListener("submit", (event) => {
 //     return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 //   }
 // }
+
+var scrollToTopBtn = document.getElementById("scrollToTopBtn")
+
+var rootElement = document.documentElement
+
+function scrollToTop() {
+  // scroll to top logic
+  rootElement.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  })
+}
+
+scrollToTopBtn.addEventListener("click", scrollToTop)

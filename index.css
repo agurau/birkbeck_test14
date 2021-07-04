@@ -1,9 +1,3 @@
-:root {
-  --blue: rgb(95, 158, 160);
-  --white: #fff;
-  --grey: rgb(27, 25, 25);
-}
-
 /*----------------- MAIN SECTION ---------------- */
 
 main .site-title {
@@ -13,6 +7,7 @@ main .site-title {
   display: flex;
   justify-content: center;
   margin-bottom: 60px;
+  background-position: center;
 }
 
 main .site-title .site-background {
@@ -24,14 +19,14 @@ main .site-title .site-background {
 }
 
 main .site-title .site-background h3 {
-  font-size: 15px;
+  font-size: 1rem;
   font-family: "Viaoda Libre", cursive;
   color: var(--blue);
   padding: 0.8rem;
 }
 
 main .site-title .site-background h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-family: "Viaoda Libre", cursive;
   padding-bottom: 0.3rem;
 }
@@ -45,18 +40,52 @@ main .site-title .btn {
   font-size: 0.8rem;
   font-family: "Viaoda Libre", cursive;
   color: var(--white);
-  background-color: rgb(26, 77, 77);
+  background-color: var(--darkblue);
   cursor: pointer;
   text-transform: uppercase;
 }
 
 main .site-title .btn:hover {
-  border: 2px solid rgb(26, 77, 77);
+  border: 2px solid var(--darkblue);
   background-color: var(--white);
-  color: rgb(26, 77, 77);
+  color: var(--darkblue);
   text-transform: uppercase;
 }
 
 /* .add-favourites ion-icon {
   vertical-align: middle;
 } */
+
+/* Medium Screens */
+@media screen and (max-width: 630px) {
+  main .site-title {
+    height: 400px;
+  }
+  main .site-title .site-background h1 {
+    font-size: 1.5rem;
+  }
+  main .site-title .site-background h3 {
+    font-size: 0.7rem;
+  }
+  .single-menu:nth-child(2) {
+    border-bottom: 0;
+  }
+}
+
+/* Small Screens*/
+
+@media screen and (max-width: 410px) {
+  main .site-title {
+    height: 350px;
+    margin-bottom: 0;
+  }
+  main .site-title .site-background h1 {
+    font-size: 0.9rem;
+  }
+  main .site-title .site-background h3 {
+    font-size: 0.6rem;
+  }
+  main .site-title .btn {
+    font-size: 0.4rem;
+  }
+}

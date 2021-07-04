@@ -9,7 +9,7 @@
 }
 
 .back-to-order {
-  background-color: rgb(26, 77, 77);
+  background-color: var(--darkblue);
   color: var(--white);
   padding: 2px 5px 2px 3px;
   /* margin: 10px 0px; */

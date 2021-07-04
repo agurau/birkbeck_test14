@@ -28,9 +28,9 @@ h3 {
   margin-bottom: 60px;
 }
 
-.title h4 {
+.title h3 {
   text-transform: capitalize;
-  font-size: 36px;
+  font-size: 2.25rem;
   position: relative;
   display: inline-block;
   padding-bottom: 10px;
@@ -38,15 +38,15 @@ h3 {
   color: var(--blue);
 }
 
-.title h4 span {
+.title h3 span {
   display: block;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-style: italic;
   font-family: "Saira Condensed", sans-serif;
   color: var(--darkblue);
 }
 
-.title h4:before {
+.title h3:before {
   position: absolute;
   content: "";
   width: 100px;
@@ -70,14 +70,14 @@ h3 {
 .single-menu {
   flex-basis: 580px;
   margin-bottom: 40px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   border-bottom: 1px solid #ddd;
 }
 
-.single-menu:nth-child(5),
+/* .single-menu:nth-child(5),
 .single-menu:nth-child(6) {
   border-bottom: 0;
-}
+} */
 
 .single-menu {
   display: flex;
@@ -101,7 +101,7 @@ h3 {
 
 .single-menu h4 {
   text-transform: capitalize;
-  font-size: 22px;
+  font-size: 1.375rem;
   color: var(--darkblue);
   border-bottom: 1px dashed var(--grey);
   margin-bottom: 5px;
@@ -131,14 +131,105 @@ h3 {
   font-size: 0.8rem;
   font-family: "Viaoda Libre", cursive;
   color: var(--white);
-  background-color: rgb(26, 77, 77);
+  background-color: var(--darkblue);
   cursor: pointer;
   text-transform: uppercase;
 }
 
 .add-favourites:hover {
-  border: 2px solid rgb(26, 77, 77);
+  border: 2px solid var(--darkblue);
   background-color: var(--white);
-  color: rgb(26, 77, 77);
+  color: var(--darkblue);
   text-transform: uppercase;
+}
+
+/* Medium Screens */
+@media screen and (max-width: 630px) {
+  .title h3 {
+    font-size: 1.6rem;
+  }
+  .title h3 span {
+    font-size: 1.1rem;
+  }
+  .single-menu img {
+    max-width: 185px;
+  }
+  .single-menu h4 {
+    font-size: 1.2rem;
+  }
+  .single-menu p {
+    font-size: 0.95rem;
+  }
+  .single-menu:nth-child(6) {
+    border-bottom: 0;
+  }
+  .title .bottom-title {
+    margin-right: 8px;
+  }
+  .add-favourites {
+    font-size: 0.57rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .title h3 {
+    font-size: 1.4rem;
+  }
+  .title h3 span {
+    font-size: 0.9rem;
+  }
+  .single-menu img {
+    max-width: 150px;
+  }
+  .single-menu h4 {
+    font-size: 1.1rem;
+  }
+  .single-menu p {
+    font-size: 0.8rem;
+  }
+  .title .bottom-title {
+    margin-right: 10px;
+  }
+  .add-favourites {
+    font-size: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .title {
+    margin-bottom: 30px;
+  }
+  .title h3 {
+    font-size: 1rem;
+  }
+  .title h3 span {
+    font-size: 0.6rem;
+  }
+  .single-menu {
+    padding-bottom: 10px;
+  }
+  .single-menu img {
+    max-width: 100px;
+  }
+  .single-menu h4 {
+    font-size: 0.8rem;
+  }
+  .single-menu p {
+    font-size: 0.7rem;
+  }
+  .title .bottom-title {
+    margin-right: 10px;
+  }
+  .add-favourites {
+    font-size: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .single-menu {
+    padding-bottom: 50px;
+  }
+  .title .bottom-title {
+    margin-right: 15px;
+  }
 }

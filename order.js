@@ -2,11 +2,11 @@
 let products = [
   {name:"Kit Kat Strawberry Cake", image:"kit-kat-strawberry-reduced.jpg", price:85},
   {name:"Carrot Cherry Cake", image:"carrot-cake-cherry-reduced.jpg", price:65},
-  {name:"Kinder Bueno White Chocolate Cake", image:"kinder-bueno-white-chocolate-reduced.jpg", price:75},
+  {name:"Kinder Bueno White Choco Cake", image:"kinder-bueno-white-chocolate-reduced.jpg", price:75},
   {name:"Princess Cake", image:"princess-cake-reduced.jpg", price:45},
   {name:"Kit Kat Strawberry Cake", image:"kit-kat-strawberry-reduced.jpg", price:85},
   {name:"Carrot Cherry Cake", image:"carrot-cake-cherry-reduced.jpg", price:65},
-  {name:"Kinder Bueno White Chocolate Cake", image:"kinder-bueno-white-chocolate-reduced.jpg", price:75},
+  {name:"Kinder Bueno White Choco Cake", image:"kinder-bueno-white-chocolate-reduced.jpg", price:75},
   {name:"Princess Cake", image:"princess-cake-reduced.jpg", price:45},
   {name:"Kit Kat Strawberry Cake", image:"kit-kat-strawberry-reduced.jpg", price:85},
 ];
