@@ -89,7 +89,7 @@ a {
     font-size: 2.5rem;
   }
   .nav .nav-items a {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
@@ -101,7 +101,7 @@ a {
     font-size: 2.2rem;
   }
   .nav .nav-items a {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 
@@ -118,7 +118,7 @@ a {
     font-size: 1.8rem;
   }
   .nav .nav-items a {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -436,6 +436,7 @@ input {
   .footer-area .container .footer .single-footer:first-child {
     width: fit-content;
     margin-bottom: 20px;
+    margin-left: 20px;
   }
   .footer-area .container .footer .single-footer:nth-child(2) {
     width: 200px;

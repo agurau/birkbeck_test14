@@ -40,7 +40,7 @@ h3 {
 
 .title h3 span {
   display: block;
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   font-style: italic;
   font-family: "Saira Condensed", sans-serif;
   color: var(--darkblue);
@@ -101,7 +101,7 @@ h3 {
 
 .single-menu h4 {
   text-transform: capitalize;
-  font-size: 1.375rem;
+  font-size: 1.2rem;
   color: var(--darkblue);
   border-bottom: 1px dashed var(--grey);
   margin-bottom: 5px;
@@ -116,6 +116,7 @@ h3 {
 
 .single-menu p {
   margin-bottom: 20px;
+  font-size: 1rem;
 }
 
 .menu-content {
@@ -167,7 +168,7 @@ h3 {
     margin-right: 8px;
   }
   .add-favourites {
-    font-size: 0.57rem;
+    font-size: 0.55rem;
   }
 }
 
@@ -200,28 +201,28 @@ h3 {
     margin-bottom: 30px;
   }
   .title h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .title h3 span {
-    font-size: 0.6rem;
+    font-size: 0.9rem;
   }
   .single-menu {
-    padding-bottom: 10px;
+    padding-bottom: 25px;
   }
   .single-menu img {
     max-width: 100px;
   }
   .single-menu h4 {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .single-menu p {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
   }
   .title .bottom-title {
     margin-right: 10px;
   }
   .add-favourites {
-    font-size: 0.3rem;
+    font-size: 0.6rem;
   }
 }
 

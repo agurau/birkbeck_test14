@@ -8,10 +8,11 @@
 
 .title {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 
-.title h4 {
+.title h3 {
   text-transform: capitalize;
   font-size: 2.25rem;
   position: relative;
@@ -21,7 +22,7 @@
   color: var(--blue);
 }
 
-.title h4 span {
+.title h3 span {
   display: block;
   font-size: 1.125rem;
   font-style: italic;
@@ -29,7 +30,7 @@
   color: var(--darkblue);
 }
 
-.title h4:before {
+.title h3:before {
   position: absolute;
   content: "";
   width: 100px;
@@ -57,7 +58,7 @@
   display: flex;
   justify-content: center;
   font-family: "Saira Condensed", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .form {
@@ -82,7 +83,7 @@
   border-radius: 4px;
   display: block;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.2rem;
   padding: 10px;
   width: 100%;
 }
@@ -96,11 +97,12 @@
 }
 
 .form-control small {
-  color: #e74c3c;
+  color: var(--white);
   position: absolute;
   bottom: 0;
   left: 0;
   visibility: hidden;
+  font-size: 1rem;
 }
 
 .form-control.error small {
@@ -135,13 +137,19 @@
   .contact-form {
     width: 300px;
     margin-bottom: 30px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .form-control input {
     padding: 0;
   }
   .form button {
     width: 40%;
+  }
+  .title h3 {
+    font-size: 1.2rem;
+  }
+  .title h3 span {
+    font-size: 0.9rem;
   }
 }
 

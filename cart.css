@@ -22,3 +22,13 @@
 .products {
   size: 2rem;
 }
+
+#total {
+  background-color: var(--blue);
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  height: 20px;
+  margin: auto auto;
+}

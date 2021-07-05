@@ -10,12 +10,15 @@
 }
 
 h3 {
-  text-align: center;
-  font-size: 2rem;
-  font-family: "Saira Condensed", sans-serif;
-  background-color: var(--blue);
-  color: var(--white);
-  height: 3rem;
+  text-transform: capitalize;
+  font-size: 2.25rem;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-family: "Big Shoulders Stencil Display", cursive;
+  color: var(--blue);
+  display: flex;
+  justify-content: center;
 }
 
 .product {
@@ -80,7 +83,7 @@ h3 {
   background-color: var(--darkblue);
   color: var(--white);
   padding: 4px 10px 4px 10px;
-  /* margin: 10px 0px; */
+  margin: 50px 0px;
   font-size: 1.3rem;
   cursor: pointer;
   font-family: "Saira Condensed", sans-serif;
@@ -131,7 +134,6 @@ h3 {
 h4 {
   text-transform: capitalize;
   font-family: "Saira Condensed", sans-serif;
-  text-align: center;
 }
 
 h5 {
