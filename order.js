@@ -13,7 +13,7 @@ let products = [
 
 let cart = []
 
-
+/* Call back function */
 function load() {
   products.forEach((i, index)=> {
       

@@ -10,8 +10,8 @@ subscribeNewsletter.addEventListener("submit", (event) => {
   // const email = document.querySelector("#newsletter input[name='email']")
   // console.log("email",email)
 
-  const name = subscribeNewsletter.elements.name.value
-  console.log("name",name)
+  const firstname = subscribeNewsletter.elements.firstname.value
+  console.log("firstname",firstname)
   const email = subscribeNewsletter.elements.email.value
   console.log("email",email)
 
@@ -48,6 +48,7 @@ subscribeNewsletter.addEventListener("submit", (event) => {
 //     return /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email);
 //   }
 // }
+
 
 var scrollToTopBtn = document.getElementById("scrollToTopBtn")
 

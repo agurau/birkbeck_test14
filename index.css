@@ -1,7 +1,7 @@
 /*----------------- MAIN SECTION ---------------- */
 
 main .site-title {
-  background-image: url(./images/home-background-reduced.jpg);
+  background-image: url(./images/home-background-optimised.jpg);
   background-size: cover;
   height: 620px;
   display: flex;

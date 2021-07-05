@@ -217,13 +217,13 @@ a {
   top: 5px;
 }
 
-.footer-area .container .footer .copy p {
+/* .footer-area .container .footer .copy p {
   font-size: 1rem;
   text-transform: capitalize;
   margin-top: 50px;
   font-family: "Saira Condensed", sans-serif;
   color: var(--grey);
-}
+} */
 
 .footer-area .container .footer .single-footer #newsletter #top-subscribe-form {
   font-family: "Saira Condensed", sans-serif;
@@ -262,6 +262,7 @@ input {
   background-color: var(--darkblue);
   cursor: pointer;
   text-transform: uppercase;
+  width: 95%;
 }
 
 .footer-area
@@ -295,6 +296,16 @@ input {
 /* Media Queries NAV BAR */
 
 /* Small Screens */
+
+@media screen and (max-width: 710px) {
+  .footer-area .container .footer .single-footer:first-child {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .footer-area .container .footer .single-footer:nth-child(2) {
+    margin-bottom: 30px;
+  }
+}
 
 @media screen and (max-width: 590px) {
   .footer-area {
@@ -334,9 +345,9 @@ input {
     .btn {
     font-size: 0.7rem;
   }
-  .footer-area .container .footer .copy p {
+  /* .footer-area .container .footer .copy p {
     font-size: 1rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 470px) {
@@ -377,9 +388,9 @@ input {
     .btn {
     font-size: 0.7rem;
   }
-  .footer-area .container .footer .copy p {
+  /* .footer-area .container .footer .copy p {
     font-size: 1rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 410px) {
@@ -416,23 +427,24 @@ input {
     .btn {
     font-size: 0.5rem;
   }
-  .footer-area .container .footer .copy p {
+  /* .footer-area .container .footer .copy p {
     font-size: 0.7rem;
-  }
+  } */
 }
 
 @media screen and (min-width: 815px) and (max-width: 1200px) {
   .footer-area .container .footer .single-footer:first-child {
     width: fit-content;
+    margin-bottom: 20px;
   }
   .footer-area .container .footer .single-footer:nth-child(2) {
-    width: 140px;
+    width: 200px;
   }
   .footer-area .container .footer .single-footer:nth-child(3) {
-    width: 140px;
+    width: 270px;
   }
-  .footer-area .container .footer .single-footer:nth-child(3) {
-    width: 140px;
+  .footer-area .container .footer .single-footer:nth-child(4) {
+    width: 250px;
   }
 }
 
@@ -477,8 +489,14 @@ input {
     .btn {
     font-size: 0.7rem;
   }
-  .footer-area .container .footer .copy p {
+  /* .footer-area .container .footer .copy p {
     font-size: 1rem;
+  } */
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1360px) {
+  .footer-area .container {
+    margin: 0 20px;
   }
 }
 
